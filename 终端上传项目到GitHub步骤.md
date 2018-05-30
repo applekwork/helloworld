@@ -38,5 +38,22 @@ git config --global user.email"注册邮箱名"
 * 3.5 git remote add origin https://......
 * 3.6 git push -u origin master（此处，可能我们会查看当前是否在master，使用命令：git check master）
 
+#####另外附上：最后分享一些Github常用的命令：
+* 切换分支：git checkout name
+* 撤销修改：git checkout -- file
+* 删除文件：git rm file
+* 查看状态：git status
+* 添加记录：git add file 或 git add .
+* 添加描述：git commit -m "miao shu nei rong"
+* 同步数据：git pull
+* 提交数据：git push origin name
+* 分支操作
+* 查看分支：git branch
+* 创建分支：git branch name
+* 切换分支：git checkout name
+* 创建+切换分支：git checkout -b name
+* 合并某分支到当前分支：git merge name
+* 删除分支：git branch -d name
+* 删除远程分支：git push origin :name
 ####  END
 
